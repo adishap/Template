@@ -1,0 +1,62 @@
+ .parallax-section {
+height: 98%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/background.jpeg');
+	 -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Desktop Parallax Photo */
+@media (min-width: 651px){
+    .parallax-section { background-image:  url(../img/background.jpeg); }
+}
+  display: none;
+  padding: 5px;
+  color:#FFF;
+  border-color:#000;
+  text-transform: uppercase;
+ background: rgba(0,0,0,0.8);
+ margin-top: -20%
+}
+
+.div-accordion:hover .img-accordion-text {
+  display: block;
+  opacity:1
+}
+
+.img-accordion:hover{
+    opacity:.2;
+     
+    }
+
+.blue{
+    color: #091B40;
+}
+
+.back_blue{
+    background-color: #091B40;
+}
+
+.pink{
+    color: #E70762;
+}
+
+.white{
+    color: #fff;
+}
+
+.back_grey{
+    background-color: #222;
+}
+.back_pink{
+    background-color: #E70762;
+}
+
+hr {
+  width: 80%;
+  height: 5px;
+}

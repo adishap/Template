@@ -1,0 +1,48 @@
+/* CSS styles for featured events*/
+.img-accordion-text {
+  display: none;
+  padding: 5px;
+  color:#FFF;
+  border-color:#000;
+  text-transform: uppercase;
+ background: rgba(0,0,0,0.8);
+ margin-top: -20%
+}
+
+.div-accordion .img-accordion-text {
+  display: block;
+  opacity:1
+}
+
+.img-accordion{
+    opacity:0.1;
+     
+    }
+/*CSS classes for colors*/
+.blue{
+    color: #091B40;
+}
+
+.back_blue{
+    background-color: #091B40;
+}
+
+.pink{
+    color: #E70762;
+}
+
+.white{
+    color: #fff;
+}
+
+.back_grey{
+    background-color: #222;
+}
+.back_pink{
+    background-color: #E70762;
+}
+/*hr styling*/
+hr {
+  width: 80%;
+  height: 5px;
+}
